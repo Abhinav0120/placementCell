@@ -10,5 +10,7 @@ router.get('/', homeController.home);
 // for any further routes, access from here
 router.use('/students', require('./students'));
 
+router.use('/users', require('./users'));
+
 
 module.exports = router;
